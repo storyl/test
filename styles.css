@@ -1,0 +1,44 @@
+body {
+  background-color: #54436B;
+}
+
+h1 {
+  margin: 0;
+}
+
+@keyframes animationgradienttitle {
+  0% {
+      background-position: 0 1600px;
+  }
+  100% {
+      background-position: 1600px 0;
+  }
+}
+
+.c-article {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.c-article__header {
+  position: relative;
+}
+
+.c-article__title {
+  font-family: 'Scope One', serif;
+  font-size: 3em;
+  background: -webkit-linear-gradient(left, #FF616D, #ACFFAD, #FF616D);
+  background-size: 1600px 200px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-duration: 3s;
+  animation-name: animationgradienttitle;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.u-font-lora {
+  font-family: 'Lora', serif;
+  font-size: 2.5em;
+  font-weight: 700;
+}
